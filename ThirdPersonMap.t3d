@@ -1,0 +1,929 @@
+Begin Map Name=/Game/ThirdPerson/Maps/ThirdPersonMap
+   Begin Level NAME=PersistentLevel
+      Begin Actor Class=/Script/Engine.WorldSettings Name=WorldInfo_0 Archetype="/Script/Engine.WorldSettings'/Script/Engine.Default__WorldSettings'" ActorFolderPath=None ExportPath="/Script/Engine.WorldSettings'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.WorldInfo_0'"
+         Begin Object Class=/Script/Engine.BookMark Name="BookMark_0" ExportPath="/Script/Engine.BookMark'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.WorldInfo_0.BookMark_0'"
+         End Object
+         Begin Object Class=/Script/Engine.BookMark Name="BookMark_2" ExportPath="/Script/Engine.BookMark'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.WorldInfo_0.BookMark_2'"
+         End Object
+         Begin Object Class=/Script/Engine.NavigationSystemConfig Name="NavigationSystemConfig_0" ExportPath="/Script/Engine.NavigationSystemConfig'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.WorldInfo_0.NavigationSystemConfig_0'"
+         End Object
+         Begin Object Class=/Script/Engine.WorldPartition Name="WorldPartition_0" ExportPath="/Script/Engine.WorldPartition'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.WorldInfo_0.WorldPartition_0'"
+            Begin Object Class=/Script/Engine.WorldPartitionEditorSpatialHash Name="WorldPartitionEditorSpatialHash_0" ExportPath="/Script/Engine.WorldPartitionEditorSpatialHash'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.WorldInfo_0.WorldPartition_0.WorldPartitionEditorSpatialHash_0'"
+            End Object
+            Begin Object Class=/Script/Engine.WorldPartitionRuntimeSpatialHash Name="WorldPartitionRuntimeSpatialHash_0" ExportPath="/Script/Engine.WorldPartitionRuntimeSpatialHash'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.WorldInfo_0.WorldPartition_0.WorldPartitionRuntimeSpatialHash_0'"
+            End Object
+            Begin Object Class=/Script/Engine.ActorDescContainer Name="ActorDescContainer_0" ExportPath="/Script/Engine.ActorDescContainer'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.WorldInfo_0.WorldPartition_0.ActorDescContainer_0'"
+            End Object
+            Begin Object Class=/Script/Engine.DataLayerManager Name="DataLayerManager" ExportPath="/Script/Engine.DataLayerManager'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.WorldInfo_0.WorldPartition_0.DataLayerManager'"
+               Begin Object Class=/Script/Engine.DataLayerLoadingPolicy Name="DataLayerLoadingPolicy_0" ExportPath="/Script/Engine.DataLayerLoadingPolicy'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.WorldInfo_0.WorldPartition_0.DataLayerManager.DataLayerLoadingPolicy_0'"
+               End Object
+            End Object
+         End Object
+         Begin Object Name="BookMark_0" ExportPath="/Script/Engine.BookMark'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.WorldInfo_0.BookMark_0'"
+            Location=(X=1032.924561,Y=-1225.010620,Z=295.627106)
+            Rotation=(Pitch=13.904873,Yaw=132.802292,Roll=0.000000)
+         End Object
+         Begin Object Name="BookMark_2" ExportPath="/Script/Engine.BookMark'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.WorldInfo_0.BookMark_2'"
+            Location=(X=-811.486954,Y=1683.558803,Z=1336.288070)
+            Rotation=(Pitch=-36.079621,Yaw=360.129535,Roll=0.000000)
+         End Object
+         Begin Object Name="NavigationSystemConfig_0" ExportPath="/Script/Engine.NavigationSystemConfig'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.WorldInfo_0.NavigationSystemConfig_0'"
+            NavigationSystemClass="/Script/NavigationSystem.NavigationSystemV1"
+         End Object
+         Begin Object Name="WorldPartition_0" ExportPath="/Script/Engine.WorldPartition'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.WorldInfo_0.WorldPartition_0'"
+            Begin Object Name="WorldPartitionEditorSpatialHash_0" ExportPath="/Script/Engine.WorldPartitionEditorSpatialHash'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.WorldInfo_0.WorldPartition_0.WorldPartitionEditorSpatialHash_0'"
+            End Object
+            Begin Object Name="WorldPartitionRuntimeSpatialHash_0" ExportPath="/Script/Engine.WorldPartitionRuntimeSpatialHash'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.WorldInfo_0.WorldPartition_0.WorldPartitionRuntimeSpatialHash_0'"
+               Grids(0)=(GridName="MainGrid",DebugColor=(R=0.500000,G=0.500000,B=0.500000,A=1.000000))
+               UseAlignedGridLevels=ProjectDefault
+               SnapNonAlignedGridLevelsToLowerLevels=ProjectDefault
+               PlaceSmallActorsUsingLocation=ProjectDefault
+               PlacePartitionActorsUsingLocation=ProjectDefault
+            End Object
+            Begin Object Name="ActorDescContainer_0" ExportPath="/Script/Engine.ActorDescContainer'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.WorldInfo_0.WorldPartition_0.ActorDescContainer_0'"
+            End Object
+            Begin Object Name="DataLayerManager" ExportPath="/Script/Engine.DataLayerManager'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.WorldInfo_0.WorldPartition_0.DataLayerManager'"
+               Begin Object Name="DataLayerLoadingPolicy_0" ExportPath="/Script/Engine.DataLayerLoadingPolicy'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.WorldInfo_0.WorldPartition_0.DataLayerManager.DataLayerLoadingPolicy_0'"
+               End Object
+            End Object
+            EditorHash="/Script/Engine.WorldPartitionEditorSpatialHash'WorldPartitionEditorSpatialHash_0'"
+            bStreamingWasEnabled=False
+            RuntimeHash="/Script/Engine.WorldPartitionRuntimeSpatialHash'WorldPartitionRuntimeSpatialHash_0'"
+            bEnableStreaming=False
+            DefaultHLODLayer="/Script/Engine.HLODLayer'/Engine/Maps/Templates/HLODs/HLODLayer_Instanced.HLODLayer_Instanced'"
+         End Object
+         bEnableNavigationSystem=False
+         bForceNoPrecomputedLighting=True
+         bIncludeGridSizeInNameForFoliageActors=True
+         bIncludeGridSizeInNameForPartitionedActors=True
+         NavigationSystemConfig="/Script/Engine.NavigationSystemConfig'NavigationSystemConfig_0'"
+         WorldPartition="/Script/Engine.WorldPartition'WorldPartition_0'"
+         KillZ=-1000.000000
+         DefaultGameMode="/Script/Engine.BlueprintGeneratedClass'/Game/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.BP_ThirdPersonGameMode_C'"
+         LightmassSettings=(NumIndirectLightingBounces=5,EnvironmentColor=(B=255,G=218,R=176,A=0),EnvironmentIntensity=0.000000,OcclusionExponent=1.500000,MaxOcclusionDistance=400.000000)
+         BookMarks(1)="/Script/Engine.BookMark'BookMark_2'"
+         BookMarks(2)="/Script/Engine.BookMark'BookMark_0'"
+         BookmarkArray(0)=None
+         BookmarkArray(1)="/Script/Engine.BookMark'BookMark_2'"
+         BookmarkArray(2)="/Script/Engine.BookMark'BookMark_0'"
+         BookmarkArray(3)=None
+         BookmarkArray(4)=None
+         BookmarkArray(5)=None
+         BookmarkArray(6)=None
+         BookmarkArray(7)=None
+         BookmarkArray(8)=None
+         BookmarkArray(9)=None
+         ActorLabel="WorldInfo"
+      End Actor
+      Begin Actor Class=/Script/Engine.Brush Name=Brush_0 Archetype="/Script/Engine.Brush'/Script/Engine.Default__Brush'" ActorFolderPath=None ExportPath="/Script/Engine.Brush'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.Brush_0'"
+         Begin Object Class=/Script/Engine.BrushComponent Name="BrushComponent0" Archetype="/Script/Engine.BrushComponent'/Script/Engine.Default__Brush:BrushComponent0'" ExportPath="/Script/Engine.BrushComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.Brush_0.BrushComponent0'"
+         End Object
+         Begin Object Class=/Script/UnrealEd.CubeBuilder Name="CubeBuilder_11" ExportPath="/Script/UnrealEd.CubeBuilder'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.Brush_0.CubeBuilder_11'"
+         End Object
+         Begin Object Name="BrushComponent0" ExportPath="/Script/Engine.BrushComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.Brush_0.BrushComponent0'"
+            Brush="/Script/Engine.Model'Brush'"
+            bSelectable=False
+            RelativeLocation=(X=230.000000,Y=70.000000,Z=130.000000)
+         End Object
+         Begin Object Name="CubeBuilder_11" ExportPath="/Script/UnrealEd.CubeBuilder'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.Brush_0.CubeBuilder_11'"
+            Vertices(0)=(X=-1000.000000,Y=-1000.000000,Z=-100.000000)
+            Vertices(1)=(X=-1000.000000,Y=-1000.000000,Z=100.000000)
+            Vertices(2)=(X=-1000.000000,Y=1000.000000,Z=-100.000000)
+            Vertices(3)=(X=-1000.000000,Y=1000.000000,Z=100.000000)
+            Vertices(4)=(X=1000.000000,Y=-1000.000000,Z=-100.000000)
+            Vertices(5)=(X=1000.000000,Y=-1000.000000,Z=100.000000)
+            Vertices(6)=(X=1000.000000,Y=1000.000000,Z=-100.000000)
+            Vertices(7)=(X=1000.000000,Y=1000.000000,Z=100.000000)
+            Polys(0)=(VertexIndices=(0,1,3,2),Direction=1)
+            Polys(1)=(VertexIndices=(2,3,7,6),Direction=1)
+            Polys(2)=(VertexIndices=(6,7,5,4),Direction=1)
+            Polys(3)=(VertexIndices=(4,5,1,0),Direction=1)
+            Polys(4)=(VertexIndices=(3,1,5,7),Direction=1)
+            Polys(5)=(VertexIndices=(0,2,6,4),Direction=1)
+            Layer="Cube"
+         End Object
+         bNotForClientOrServer=True
+         Brush="/Script/Engine.Model'Brush'"
+         BrushComponent="BrushComponent0"
+         BrushBuilder="/Script/UnrealEd.CubeBuilder'CubeBuilder_11'"
+         bHidden=False
+         bActorEnableCollision=False
+         RootComponent="BrushComponent0"
+         ActorLabel="Brush"
+      End Actor
+      Begin Actor Class=/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap_C Name=ThirdPersonExampleMap_C_0 Archetype="/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap_C'/Game/ThirdPerson/Maps/ThirdPersonMap.Default__ThirdPersonMap_C'" ActorFolderPath=None ExportPath="/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap_C'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.ThirdPersonExampleMap_C_0'"
+         ActorLabel="ThirdPersonExampleMap"
+      End Actor
+      Begin Actor Class=/Script/Engine.WorldDataLayers Name=WorldDataLayers Archetype="/Script/Engine.WorldDataLayers'/Script/Engine.Default__WorldDataLayers'" ActorFolderPath=None ExportPath="/Script/Engine.WorldDataLayers'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.WorldDataLayers'"
+         ActorLabel="WorldDataLayers"
+      End Actor
+      Begin Actor Class=/Script/GameplayDebugger.GameplayDebuggerPlayerManager Name=GameplayDebuggerPlayerManager_0 Archetype="/Script/GameplayDebugger.GameplayDebuggerPlayerManager'/Script/GameplayDebugger.Default__GameplayDebuggerPlayerManager'" ActorFolderPath=None ExportPath="/Script/GameplayDebugger.GameplayDebuggerPlayerManager'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.GameplayDebuggerPlayerManager_0'"
+         Begin Object Class=/Script/Engine.InputComponent Name="GameplayDebug_Input" ExportPath="/Script/Engine.InputComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.GameplayDebuggerPlayerManager_0.GameplayDebug_Input'"
+         End Object
+         Begin Object Name="GameplayDebug_Input" ExportPath="/Script/Engine.InputComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.GameplayDebuggerPlayerManager_0.GameplayDebug_Input'"
+         End Object
+         InputComponent="/Script/Engine.InputComponent'GameplayDebug_Input'"
+         ActorLabel="GameplayDebuggerPlayerManager0"
+      End Actor
+      Begin Actor Class=/Script/Engine.PostProcessVolume Name=PostProcessVolume_0 Archetype="/Script/Engine.PostProcessVolume'/Script/Engine.Default__PostProcessVolume'" ActorFolderPath=Lighting ExportPath="/Script/Engine.PostProcessVolume'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.PostProcessVolume_0'"
+         Begin Object Class=/Script/Engine.BrushComponent Name="BrushComponent0" Archetype="/Script/Engine.BrushComponent'/Script/Engine.Default__PostProcessVolume:BrushComponent0'" ExportPath="/Script/Engine.BrushComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.PostProcessVolume_0.BrushComponent0'"
+            Begin Object Class=/Script/Engine.BodySetup Name="BodySetup_0" ExportPath="/Script/Engine.BodySetup'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.PostProcessVolume_0.BrushComponent0.BodySetup_0'"
+            End Object
+         End Object
+         Begin Object Class=/Script/UnrealEd.CubeBuilder Name="CubeBuilder_1" ExportPath="/Script/UnrealEd.CubeBuilder'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.PostProcessVolume_0.CubeBuilder_1'"
+         End Object
+         Begin Brush Name=Model_1
+         End Brush
+         Begin Object Name="BrushComponent0" ExportPath="/Script/Engine.BrushComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.PostProcessVolume_0.BrushComponent0'"
+            Begin Object Name="BodySetup_0" ExportPath="/Script/Engine.BodySetup'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.PostProcessVolume_0.BrushComponent0.BodySetup_0'"
+               AggGeom=(ConvexElems=((VertexData=((X=-100.000000,Y=100.000000,Z=-100.000000),(X=-100.000000,Y=100.000000,Z=100.000000),(X=-100.000000,Y=-100.000000,Z=100.000000),(X=-100.000000,Y=-100.000000,Z=-100.000000),(X=100.000000,Y=100.000000,Z=-100.000000),(X=100.000000,Y=100.000000,Z=100.000000),(X=100.000000,Y=-100.000000,Z=-100.000000),(X=100.000000,Y=-100.000000,Z=100.000000)),IndexData=(5,4,1,0,2,1,0,1,4,3,0,4,3,2,0,6,3,4,6,2,3,5,1,2,5,6,4,7,5,2,7,6,5,7,2,6),ElemBox=(Min=(X=-100.000000,Y=-100.000000,Z=-100.000000),Max=(X=100.000000,Y=100.000000,Z=100.000000),IsValid=True))))
+               bGenerateMirroredCollision=False
+               CollisionTraceFlag=CTF_UseSimpleAsComplex
+            End Object
+            Brush="/Script/Engine.Model'Model_1'"
+            BrushBodySetup="/Script/Engine.BodySetup'BodySetup_0'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=100.000000,Y=100.000000,Z=500.000000)
+         End Object
+         Begin Object Name="CubeBuilder_1" ExportPath="/Script/UnrealEd.CubeBuilder'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.PostProcessVolume_0.CubeBuilder_1'"
+         End Object
+         Settings=(bOverride_AutoExposureMinBrightness=True,bOverride_AutoExposureMaxBrightness=True,AutoExposureMinBrightness=0.000000,AutoExposureMaxBrightness=0.000000)
+         bUnbound=True
+         BrushType=Brush_Add
+         Begin Brush Name=Model_1
+            Begin PolyList
+               Begin Polygon
+                  Origin   -00100.000000,-00100.000000,-00100.000000
+                  Normal   -00001.000000,+00000.000000,+00000.000000
+                  TextureU +00000.000000,+00001.000000,+00000.000000
+                  TextureV +00000.000000,+00000.000000,-00001.000000
+                  Vertex   -00100.000000,-00100.000000,-00100.000000
+                  Vertex   -00100.000000,-00100.000000,+00100.000000
+                  Vertex   -00100.000000,+00100.000000,+00100.000000
+                  Vertex   -00100.000000,+00100.000000,-00100.000000
+               End Polygon
+               Begin Polygon
+                  Origin   -00100.000000,+00100.000000,-00100.000000
+                  Normal   +00000.000000,+00001.000000,+00000.000000
+                  TextureU +00001.000000,-00000.000000,+00000.000000
+                  TextureV +00000.000000,+00000.000000,-00001.000000
+                  Vertex   -00100.000000,+00100.000000,-00100.000000
+                  Vertex   -00100.000000,+00100.000000,+00100.000000
+                  Vertex   +00100.000000,+00100.000000,+00100.000000
+                  Vertex   +00100.000000,+00100.000000,-00100.000000
+               End Polygon
+               Begin Polygon
+                  Origin   +00100.000000,+00100.000000,-00100.000000
+                  Normal   +00001.000000,+00000.000000,+00000.000000
+                  TextureU +00000.000000,-00001.000000,+00000.000000
+                  TextureV +00000.000000,+00000.000000,-00001.000000
+                  Vertex   +00100.000000,+00100.000000,-00100.000000
+                  Vertex   +00100.000000,+00100.000000,+00100.000000
+                  Vertex   +00100.000000,-00100.000000,+00100.000000
+                  Vertex   +00100.000000,-00100.000000,-00100.000000
+               End Polygon
+               Begin Polygon
+                  Origin   +00100.000000,-00100.000000,-00100.000000
+                  Normal   +00000.000000,-00001.000000,+00000.000000
+                  TextureU -00001.000000,-00000.000000,-00000.000000
+                  TextureV +00000.000000,+00000.000000,-00001.000000
+                  Vertex   +00100.000000,-00100.000000,-00100.000000
+                  Vertex   +00100.000000,-00100.000000,+00100.000000
+                  Vertex   -00100.000000,-00100.000000,+00100.000000
+                  Vertex   -00100.000000,-00100.000000,-00100.000000
+               End Polygon
+               Begin Polygon
+                  Origin   -00100.000000,+00100.000000,+00100.000000
+                  Normal   +00000.000000,+00000.000000,+00001.000000
+                  TextureU +00001.000000,+00000.000000,+00000.000000
+                  TextureV +00000.000000,+00001.000000,+00000.000000
+                  Vertex   -00100.000000,+00100.000000,+00100.000000
+                  Vertex   -00100.000000,-00100.000000,+00100.000000
+                  Vertex   +00100.000000,-00100.000000,+00100.000000
+                  Vertex   +00100.000000,+00100.000000,+00100.000000
+               End Polygon
+               Begin Polygon
+                  Origin   -00100.000000,-00100.000000,-00100.000000
+                  Normal   +00000.000000,+00000.000000,-00001.000000
+                  TextureU +00001.000000,+00000.000000,+00000.000000
+                  TextureV +00000.000000,-00001.000000,+00000.000000
+                  Vertex   -00100.000000,-00100.000000,-00100.000000
+                  Vertex   -00100.000000,+00100.000000,-00100.000000
+                  Vertex   +00100.000000,+00100.000000,-00100.000000
+                  Vertex   +00100.000000,-00100.000000,-00100.000000
+               End Polygon
+            End PolyList
+         End Brush
+         Brush="/Script/Engine.Model'Model_1'"
+         BrushComponent="BrushComponent0"
+         BrushBuilder="/Script/UnrealEd.CubeBuilder'CubeBuilder_1'"
+         bHidden=False
+         RootComponent="BrushComponent0"
+         ActorLabel="PostProcessVolume"
+         FolderGuid=963EC3EB4002CCE9759E2EBA541A873A
+         bIsSpatiallyLoaded=False
+      End Actor
+      Begin Actor Class=/Script/Engine.TextRenderActor Name=TextRenderActor_1 Archetype="/Script/Engine.TextRenderActor'/Script/Engine.Default__TextRenderActor'" ActorFolderPath=None ExportPath="/Script/Engine.TextRenderActor'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.TextRenderActor_1'"
+         Begin Object Class=/Script/Engine.TextRenderComponent Name="NewTextRenderComponent" Archetype="/Script/Engine.TextRenderComponent'/Script/Engine.Default__TextRenderActor:NewTextRenderComponent'" ExportPath="/Script/Engine.TextRenderComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.TextRenderActor_1.NewTextRenderComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.BillboardComponent Name="Sprite" Archetype="/Script/Engine.BillboardComponent'/Script/Engine.Default__TextRenderActor:Sprite'" ExportPath="/Script/Engine.BillboardComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.TextRenderActor_1.Sprite'"
+         End Object
+         Begin Object Name="NewTextRenderComponent" ExportPath="/Script/Engine.TextRenderComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.TextRenderActor_1.NewTextRenderComponent'"
+            Text=NSLOCTEXT("[93BDCBA648C532B9AC0D43AC5159159E]", "DD27B4054097AA56AEDD70A9C7C9A052", "Third Person Template")
+            VerticalAlignment=EVRTA_TextCenter
+            TextRenderColor=(B=109,G=109,R=109,A=255)
+            WorldSize=150.000000
+            RelativeLocation=(X=-0.100000,Y=1100.000000,Z=140.012695)
+            RelativeRotation=(Pitch=0.000000,Yaw=180.000000,Roll=0.000000)
+         End Object
+         Begin Object Name="Sprite" ExportPath="/Script/Engine.BillboardComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.TextRenderActor_1.Sprite'"
+            AttachParent="NewTextRenderComponent"
+         End Object
+         TextRender="NewTextRenderComponent"
+         SpriteComponent="Sprite"
+         RootComponent="NewTextRenderComponent"
+         ActorLabel="TextRenderActor"
+      End Actor
+      Begin Actor Class=/Script/Engine.VolumetricCloud Name=VolumetricCloud_0 Archetype="/Script/Engine.VolumetricCloud'/Script/Engine.Default__VolumetricCloud'" ActorFolderPath=Lighting ExportPath="/Script/Engine.VolumetricCloud'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.VolumetricCloud_0'"
+         Begin Object Class=/Script/Engine.BillboardComponent Name="Sprite" Archetype="/Script/Engine.BillboardComponent'/Script/Engine.Default__VolumetricCloud:Sprite'" ExportPath="/Script/Engine.BillboardComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.VolumetricCloud_0.Sprite'"
+         End Object
+         Begin Object Class=/Script/Engine.VolumetricCloudComponent Name="VolumetricCloudComponent" Archetype="/Script/Engine.VolumetricCloudComponent'/Script/Engine.Default__VolumetricCloud:VolumetricCloudComponent'" ExportPath="/Script/Engine.VolumetricCloudComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.VolumetricCloud_0.VolumetricCloudComponent'"
+         End Object
+         Begin Object Name="Sprite" ExportPath="/Script/Engine.BillboardComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.VolumetricCloud_0.Sprite'"
+            AttachParent="VolumetricCloudComponent"
+         End Object
+         Begin Object Name="VolumetricCloudComponent" ExportPath="/Script/Engine.VolumetricCloudComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.VolumetricCloud_0.VolumetricCloudComponent'"
+            ReflectionViewSampleCountScaleValue=0.104167
+            ShadowReflectionViewSampleCountScaleValue=0.300000
+            RelativeLocation=(X=0.000000,Y=0.000000,Z=820.000000)
+         End Object
+         VolumetricCloudComponent="VolumetricCloudComponent"
+         SpriteComponent="Sprite"
+         RootComponent="VolumetricCloudComponent"
+         ActorLabel="VolumetricCloud"
+         FolderGuid=963EC3EB4002CCE9759E2EBA541A873A
+      End Actor
+      Begin Actor Class=/Script/Engine.SkyAtmosphere Name=SkyAtmosphere_0 Archetype="/Script/Engine.SkyAtmosphere'/Script/Engine.Default__SkyAtmosphere'" ActorFolderPath=Lighting ExportPath="/Script/Engine.SkyAtmosphere'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.SkyAtmosphere_0'"
+         Begin Object Class=/Script/Engine.BillboardComponent Name="Sprite" Archetype="/Script/Engine.BillboardComponent'/Script/Engine.Default__SkyAtmosphere:Sprite'" ExportPath="/Script/Engine.BillboardComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.SkyAtmosphere_0.Sprite'"
+         End Object
+         Begin Object Class=/Script/Engine.SkyAtmosphereComponent Name="SkyAtmosphereComponent" Archetype="/Script/Engine.SkyAtmosphereComponent'/Script/Engine.Default__SkyAtmosphere:SkyAtmosphereComponent'" ExportPath="/Script/Engine.SkyAtmosphereComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.SkyAtmosphere_0.SkyAtmosphereComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.ArrowComponent Name="ArrowComponent" Archetype="/Script/Engine.ArrowComponent'/Script/Engine.Default__SkyAtmosphere:ArrowComponent'" ExportPath="/Script/Engine.ArrowComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.SkyAtmosphere_0.ArrowComponent'"
+         End Object
+         Begin Object Name="Sprite" ExportPath="/Script/Engine.BillboardComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.SkyAtmosphere_0.Sprite'"
+            AttachParent="SkyAtmosphereComponent"
+         End Object
+         Begin Object Name="SkyAtmosphereComponent" ExportPath="/Script/Engine.SkyAtmosphereComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.SkyAtmosphere_0.SkyAtmosphereComponent'"
+            bStaticLightingBuiltGUID=5C29660645653F3BF77E1AB70DAB0AC0
+            RelativeLocation=(X=0.000000,Y=0.000000,Z=1020.000000)
+         End Object
+         Begin Object Name="ArrowComponent" ExportPath="/Script/Engine.ArrowComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.SkyAtmosphere_0.ArrowComponent'"
+            AttachParent="SkyAtmosphereComponent"
+         End Object
+         SkyAtmosphereComponent="SkyAtmosphereComponent"
+         ArrowComponent="ArrowComponent"
+         SpriteComponent="Sprite"
+         RootComponent="SkyAtmosphereComponent"
+         ActorLabel="SkyAtmosphere"
+         FolderGuid=963EC3EB4002CCE9759E2EBA541A873A
+      End Actor
+      Begin Actor Class=/Script/Engine.StaticMeshActor Name=StaticMeshActor_UAID_A4AE111137DC5EFB00_1110535423 Archetype="/Script/Engine.StaticMeshActor'/Script/Engine.Default__StaticMeshActor'" ActorFolderPath=Lighting ExportPath="/Script/Engine.StaticMeshActor'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_A4AE111137DC5EFB00_1110535423'"
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/Engine.StaticMeshComponent'/Script/Engine.Default__StaticMeshActor:StaticMeshComponent0'" ExportPath="/Script/Engine.StaticMeshComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_A4AE111137DC5EFB00_1110535423.StaticMeshComponent0'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/Engine.StaticMeshComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_A4AE111137DC5EFB00_1110535423.StaticMeshComponent0'"
+            StaticMesh="/Script/Engine.StaticMesh'/Engine/EngineSky/SM_SkySphere.SM_SkySphere'"
+            bUseDefaultCollision=False
+            StaticMeshDerivedDataKey="STATICMESH_A8F10585DE67499EA913B652DC4A955E_228332BAE0224DD294E232B87D83948FQuadricMeshReduction_V2$2e0_37DD3B6C$2dD4A4$2d41C0$2dBCF6$2d32AE2029E647_CONSTRAINED_0000000000000080000000000000803F000000000000803F0000803FE24CA9997B8D383A984429295275520A00000000010000000100000000000000010000000100000000000000000000000100000000000000400000000000000001000000000000000000F03F000000000000F03F000000000000F03F0000803F00000000050000004E6F6E65000C00000030000000803F0000803F000000000000004100000000000034420303030000000000000000_LS0MNSzzzzzzzz0_SWLZ"
+            OverrideMaterials(0)="/Script/Engine.Material'/Engine/EngineSky/M_SimpleSkyDome.M_SimpleSkyDome'"
+            BodyInstance=(CollisionEnabled=NoCollision,CollisionProfileName="NoCollision",CollisionResponses=(ResponseArray=((Channel="Visibility",Response=ECR_Ignore),(Channel="Camera",Response=ECR_Ignore))))
+            RelativeScale3D=(X=400.000000,Y=400.000000,Z=400.000000)
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="SM_SkySphere"
+         FolderGuid=963EC3EB4002CCE9759E2EBA541A873A
+         bIsSpatiallyLoaded=False
+      End Actor
+      Begin Actor Class=/Script/Engine.StaticMeshActor Name=StaticMeshActor_4 Archetype="/Script/Engine.StaticMeshActor'/Script/Engine.Default__StaticMeshActor'" ActorFolderPath=Playground ExportPath="/Script/Engine.StaticMeshActor'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_4'"
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/Engine.StaticMeshComponent'/Script/Engine.Default__StaticMeshActor:StaticMeshComponent0'" ExportPath="/Script/Engine.StaticMeshComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_4.StaticMeshComponent0'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/Engine.StaticMeshComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_4.StaticMeshComponent0'"
+            StaticMesh="/Script/Engine.StaticMesh'/Game/LevelPrototyping/Meshes/SM_Cube.SM_Cube'"
+            StaticMeshImportVersion=1
+            StaticMeshDerivedDataKey="STATICMESH_24983DE8033B49EE8B6566C299172A6C_228332BAE0224DD294E232B87D83948FQuadricMeshReduction_V2$2e0_490113CF$2d8BCC$2d4B89$2dA2AF$2d5862CFA10CB8_CONSTRAINED_LWC_900000000000000800000000000000000C33BD27EC93D3981A3FE93B45679E781000000000100000001000000000000000100000001000000000000000000000001000000010000004000000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E65000C00000030000000803F0000803F0000000000000041000000000000A0420303030000000000000000_LS0MNSzzzzzzzz0_SWLZ"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceConstant'/Game/LevelPrototyping/Materials/MI_PrototypeGrid_Gray.MI_PrototypeGrid_Gray'"
+            RelativeLocation=(X=3000.000000,Y=100.000000,Z=0.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=90.000000,Roll=0.000000)
+            RelativeScale3D=(X=33.000000,Y=1.000000,Z=4.000000)
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="SM_Cube6"
+         FolderGuid=C73F09FC4215536B1DCE2A9E0A830C70
+      End Actor
+      Begin Actor Class=/Script/Engine.DirectionalLight Name=DirectionalLight_0 Archetype="/Script/Engine.DirectionalLight'/Script/Engine.Default__DirectionalLight'" ActorFolderPath=Lighting ExportPath="/Script/Engine.DirectionalLight'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.DirectionalLight_0'"
+         Begin Object Class=/Script/Engine.DirectionalLightComponent Name="LightComponent0" Archetype="/Script/Engine.DirectionalLightComponent'/Script/Engine.Default__DirectionalLight:LightComponent0'" ExportPath="/Script/Engine.DirectionalLightComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.DirectionalLight_0.LightComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.ArrowComponent Name="ArrowComponent0" Archetype="/Script/Engine.ArrowComponent'/Script/Engine.Default__DirectionalLight:ArrowComponent0'" ExportPath="/Script/Engine.ArrowComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.DirectionalLight_0.ArrowComponent0'"
+         End Object
+         Begin Object Name="LightComponent0" ExportPath="/Script/Engine.DirectionalLightComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.DirectionalLight_0.LightComponent0'"
+            bEnableLightShaftOcclusion=True
+            DynamicShadowDistanceMovableLight=20000.000000
+            DistanceFieldShadowDistance=30000.000000
+            LightSourceAngle=0.735700
+            bCastShadowsOnClouds=True
+            bCastShadowsOnAtmosphere=True
+            bUseTemperature=True
+            LightFunctionScale=(X=4235.453613,Y=4235.453613,Z=4235.453613)
+            LightFunctionFadeDistance=77466.187500
+            DisabledBrightness=0.696000
+            bUseRayTracedDistanceFieldShadows=False
+            Intensity=3.000000
+            RelativeLocation=(X=0.000000,Y=0.000000,Z=920.000000)
+            RelativeRotation=(Pitch=-60.779152,Yaw=-14.988161,Roll=25.555014)
+            Mobility=Movable
+         End Object
+         Begin Object Name="ArrowComponent0" ExportPath="/Script/Engine.ArrowComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.DirectionalLight_0.ArrowComponent0'"
+            ArrowColor=(B=255,G=255,R=255,A=255)
+            AttachParent="LightComponent0"
+         End Object
+         ArrowComponent="ArrowComponent0"
+         DirectionalLightComponent="LightComponent0"
+         LightComponent="LightComponent0"
+         SpawnCollisionHandlingMethod=AlwaysSpawn
+         RootComponent="LightComponent0"
+         ActorLabel="DirectionalLight"
+         FolderGuid=963EC3EB4002CCE9759E2EBA541A873A
+      End Actor
+      Begin Actor Class=/Script/Engine.ExponentialHeightFog Name=ExponentialHeightFog_0 Archetype="/Script/Engine.ExponentialHeightFog'/Script/Engine.Default__ExponentialHeightFog'" ActorFolderPath=Lighting ExportPath="/Script/Engine.ExponentialHeightFog'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.ExponentialHeightFog_0'"
+         Begin Object Class=/Script/Engine.BillboardComponent Name="Sprite" Archetype="/Script/Engine.BillboardComponent'/Script/Engine.Default__ExponentialHeightFog:Sprite'" ExportPath="/Script/Engine.BillboardComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.ExponentialHeightFog_0.Sprite'"
+         End Object
+         Begin Object Class=/Script/Engine.ExponentialHeightFogComponent Name="HeightFogComponent0" Archetype="/Script/Engine.ExponentialHeightFogComponent'/Script/Engine.Default__ExponentialHeightFog:HeightFogComponent0'" ExportPath="/Script/Engine.ExponentialHeightFogComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.ExponentialHeightFog_0.HeightFogComponent0'"
+         End Object
+         Begin Object Name="Sprite" ExportPath="/Script/Engine.BillboardComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.ExponentialHeightFog_0.Sprite'"
+            AttachParent="HeightFogComponent0"
+         End Object
+         Begin Object Name="HeightFogComponent0" ExportPath="/Script/Engine.ExponentialHeightFogComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.ExponentialHeightFog_0.HeightFogComponent0'"
+            FogDensity=0.043600
+            RelativeLocation=(X=-5600.000000,Y=-50.000000,Z=-6850.000000)
+         End Object
+         Component="HeightFogComponent0"
+         SpriteComponent="Sprite"
+         RootComponent="HeightFogComponent0"
+         ActorLabel="ExponentialHeightFog"
+         FolderGuid=963EC3EB4002CCE9759E2EBA541A873A
+      End Actor
+      Begin Actor Class=/Script/Engine.StaticMeshActor Name=StaticMeshActor_1 Archetype="/Script/Engine.StaticMeshActor'/Script/Engine.Default__StaticMeshActor'" ActorFolderPath=Playground ExportPath="/Script/Engine.StaticMeshActor'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_1'"
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/Engine.StaticMeshComponent'/Script/Engine.Default__StaticMeshActor:StaticMeshComponent0'" ExportPath="/Script/Engine.StaticMeshComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_1.StaticMeshComponent0'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/Engine.StaticMeshComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_1.StaticMeshComponent0'"
+            StaticMesh="/Script/Engine.StaticMesh'/Game/LevelPrototyping/Meshes/SM_Cube.SM_Cube'"
+            StaticMeshImportVersion=1
+            StaticMeshDerivedDataKey="STATICMESH_24983DE8033B49EE8B6566C299172A6C_228332BAE0224DD294E232B87D83948FQuadricMeshReduction_V2$2e0_490113CF$2d8BCC$2d4B89$2dA2AF$2d5862CFA10CB8_CONSTRAINED_LWC_900000000000000800000000000000000C33BD27EC93D3981A3FE93B45679E781000000000100000001000000000000000100000001000000000000000000000001000000010000004000000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E65000C00000030000000803F0000803F0000000000000041000000000000A0420303030000000000000000_LS0MNSzzzzzzzz0_SWLZ"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceConstant'/Game/LevelPrototyping/Materials/MI_PrototypeGrid_Gray.MI_PrototypeGrid_Gray'"
+            RelativeLocation=(X=0.000000,Y=0.000000,Z=-50.000000)
+            RelativeScale3D=(X=30.000000,Y=35.000000,Z=0.500000)
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="SM_Cube"
+         FolderGuid=C73F09FC4215536B1DCE2A9E0A830C70
+      End Actor
+      Begin Actor Class=/Script/Engine.SkyLight Name=SkyLight_1 Archetype="/Script/Engine.SkyLight'/Script/Engine.Default__SkyLight'" ActorFolderPath=Lighting ExportPath="/Script/Engine.SkyLight'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.SkyLight_1'"
+         Begin Object Class=/Script/Engine.BillboardComponent Name="Sprite" Archetype="/Script/Engine.BillboardComponent'/Script/Engine.Default__SkyLight:Sprite'" ExportPath="/Script/Engine.BillboardComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.SkyLight_1.Sprite'"
+         End Object
+         Begin Object Class=/Script/Engine.SkyLightComponent Name="SkyLightComponent0" Archetype="/Script/Engine.SkyLightComponent'/Script/Engine.Default__SkyLight:SkyLightComponent0'" ExportPath="/Script/Engine.SkyLightComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.SkyLight_1.SkyLightComponent0'"
+         End Object
+         Begin Object Name="Sprite" ExportPath="/Script/Engine.BillboardComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.SkyLight_1.Sprite'"
+         End Object
+         Begin Object Name="SkyLightComponent0" ExportPath="/Script/Engine.SkyLightComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.SkyLight_1.SkyLightComponent0'"
+            bRealTimeCapture=True
+            RelativeLocation=(X=0.000000,Y=0.000000,Z=690.000000)
+            Mobility=Movable
+         End Object
+         LightComponent="SkyLightComponent0"
+         RootComponent="SkyLightComponent0"
+         ActorLabel="SkyLight"
+         FolderGuid=963EC3EB4002CCE9759E2EBA541A873A
+      End Actor
+      Begin Actor Class=/Script/Engine.StaticMeshActor Name=StaticMeshActor_0 Archetype="/Script/Engine.StaticMeshActor'/Script/Engine.Default__StaticMeshActor'" ActorFolderPath=Playground ExportPath="/Script/Engine.StaticMeshActor'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_0'"
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/Engine.StaticMeshComponent'/Script/Engine.Default__StaticMeshActor:StaticMeshComponent0'" ExportPath="/Script/Engine.StaticMeshComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_0.StaticMeshComponent0'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/Engine.StaticMeshComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_0.StaticMeshComponent0'"
+            StaticMesh="/Script/Engine.StaticMesh'/Game/LevelPrototyping/Meshes/SM_Cube.SM_Cube'"
+            StaticMeshImportVersion=1
+            StaticMeshDerivedDataKey="STATICMESH_24983DE8033B49EE8B6566C299172A6C_228332BAE0224DD294E232B87D83948FQuadricMeshReduction_V2$2e0_490113CF$2d8BCC$2d4B89$2dA2AF$2d5862CFA10CB8_CONSTRAINED_LWC_900000000000000800000000000000000C33BD27EC93D3981A3FE93B45679E781000000000100000001000000000000000100000001000000000000000000000001000000010000004000000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E65000C00000030000000803F0000803F0000000000000041000000000000A0420303030000000000000000_LS0MNSzzzzzzzz0_SWLZ"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceConstant'/Game/LevelPrototyping/Materials/MI_PrototypeGrid_Gray.MI_PrototypeGrid_Gray'"
+            RelativeLocation=(X=100.000000,Y=100.000000,Z=0.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=90.000000,Roll=0.000000)
+            RelativeScale3D=(X=33.000000,Y=1.000000,Z=4.000000)
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="SM_Cube5"
+         FolderGuid=C73F09FC4215536B1DCE2A9E0A830C70
+      End Actor
+      Begin Actor Class=/Script/Engine.StaticMeshActor Name=StaticMeshActor_5 Archetype="/Script/Engine.StaticMeshActor'/Script/Engine.Default__StaticMeshActor'" ActorFolderPath=Playground ExportPath="/Script/Engine.StaticMeshActor'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_5'"
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/Engine.StaticMeshComponent'/Script/Engine.Default__StaticMeshActor:StaticMeshComponent0'" ExportPath="/Script/Engine.StaticMeshComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_5.StaticMeshComponent0'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/Engine.StaticMeshComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_5.StaticMeshComponent0'"
+            StaticMesh="/Script/Engine.StaticMesh'/Game/LevelPrototyping/Meshes/SM_Cube.SM_Cube'"
+            StaticMeshImportVersion=1
+            StaticMeshDerivedDataKey="STATICMESH_24983DE8033B49EE8B6566C299172A6C_228332BAE0224DD294E232B87D83948FQuadricMeshReduction_V2$2e0_490113CF$2d8BCC$2d4B89$2dA2AF$2d5862CFA10CB8_CONSTRAINED_LWC_900000000000000800000000000000000C33BD27EC93D3981A3FE93B45679E781000000000100000001000000000000000100000001000000000000000000000001000000010000004000000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E65000C00000030000000803F0000803F0000000000000041000000000000A0420303030000000000000000_LS0MNSzzzzzzzz0_SWLZ"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceConstant'/Game/LevelPrototyping/Materials/MI_PrototypeGrid_Gray.MI_PrototypeGrid_Gray'"
+            RelativeScale3D=(X=30.000000,Y=1.000000,Z=4.000000)
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="SM_Cube2"
+         FolderGuid=C73F09FC4215536B1DCE2A9E0A830C70
+      End Actor
+      Begin Actor Class=/Script/Engine.StaticMeshActor Name=StaticMeshActor_6 Archetype="/Script/Engine.StaticMeshActor'/Script/Engine.Default__StaticMeshActor'" ActorFolderPath=Playground ExportPath="/Script/Engine.StaticMeshActor'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_6'"
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/Engine.StaticMeshComponent'/Script/Engine.Default__StaticMeshActor:StaticMeshComponent0'" ExportPath="/Script/Engine.StaticMeshComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_6.StaticMeshComponent0'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/Engine.StaticMeshComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_6.StaticMeshComponent0'"
+            StaticMesh="/Script/Engine.StaticMesh'/Game/LevelPrototyping/Meshes/SM_Cube.SM_Cube'"
+            StaticMeshImportVersion=1
+            StaticMeshDerivedDataKey="STATICMESH_24983DE8033B49EE8B6566C299172A6C_228332BAE0224DD294E232B87D83948FQuadricMeshReduction_V2$2e0_490113CF$2d8BCC$2d4B89$2dA2AF$2d5862CFA10CB8_CONSTRAINED_LWC_900000000000000800000000000000000C33BD27EC93D3981A3FE93B45679E781000000000100000001000000000000000100000001000000000000000000000001000000010000004000000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E65000C00000030000000803F0000803F0000000000000041000000000000A0420303030000000000000000_LS0MNSzzzzzzzz0_SWLZ"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceConstant'/Game/LevelPrototyping/Materials/MI_PrototypeGrid_Gray.MI_PrototypeGrid_Gray'"
+            RelativeLocation=(X=0.000000,Y=3400.000000,Z=0.000000)
+            RelativeScale3D=(X=30.000000,Y=1.000000,Z=4.000000)
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="SM_Cube3"
+         FolderGuid=C73F09FC4215536B1DCE2A9E0A830C70
+      End Actor
+      Begin Actor Class=/Script/Engine.PlayerStart Name=PlayerStart_0 Archetype="/Script/Engine.PlayerStart'/Script/Engine.Default__PlayerStart'" ActorFolderPath=None ExportPath="/Script/Engine.PlayerStart'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.PlayerStart_0'"
+         Begin Object Class=/Script/Engine.CapsuleComponent Name="CollisionCapsule" Archetype="/Script/Engine.CapsuleComponent'/Script/Engine.Default__PlayerStart:CollisionCapsule'" ExportPath="/Script/Engine.CapsuleComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.PlayerStart_0.CollisionCapsule'"
+         End Object
+         Begin Object Class=/Script/Engine.BillboardComponent Name="Sprite" Archetype="/Script/Engine.BillboardComponent'/Script/Engine.Default__PlayerStart:Sprite'" ExportPath="/Script/Engine.BillboardComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.PlayerStart_0.Sprite'"
+         End Object
+         Begin Object Class=/Script/Engine.BillboardComponent Name="Sprite2" Archetype="/Script/Engine.BillboardComponent'/Script/Engine.Default__PlayerStart:Sprite2'" ExportPath="/Script/Engine.BillboardComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.PlayerStart_0.Sprite2'"
+         End Object
+         Begin Object Class=/Script/Engine.ArrowComponent Name="Arrow" Archetype="/Script/Engine.ArrowComponent'/Script/Engine.Default__PlayerStart:Arrow'" ExportPath="/Script/Engine.ArrowComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.PlayerStart_0.Arrow'"
+         End Object
+         Begin Object Name="CollisionCapsule" ExportPath="/Script/Engine.CapsuleComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.PlayerStart_0.CollisionCapsule'"
+            AreaClass="/Script/CoreUObject.Class'/Script/NavigationSystem.NavArea_Obstacle'"
+            AreaClassOverride="/Script/CoreUObject.Class'/Script/NavigationSystem.NavArea_Obstacle'"
+            bUseSystemDefaultObstacleAreaClass=False
+            RelativeLocation=(X=900.000000,Y=1110.000000,Z=212.012604)
+         End Object
+         Begin Object Name="Sprite" ExportPath="/Script/Engine.BillboardComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.PlayerStart_0.Sprite'"
+            AttachParent="CollisionCapsule"
+         End Object
+         Begin Object Name="Sprite2" ExportPath="/Script/Engine.BillboardComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.PlayerStart_0.Sprite2'"
+            AttachParent="CollisionCapsule"
+         End Object
+         Begin Object Name="Arrow" ExportPath="/Script/Engine.ArrowComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.PlayerStart_0.Arrow'"
+            AttachParent="CollisionCapsule"
+         End Object
+         ArrowComponent="Arrow"
+         CapsuleComponent="CollisionCapsule"
+         GoodSprite="Sprite"
+         BadSprite="Sprite2"
+         RootComponent="CollisionCapsule"
+         ActorLabel="PlayerStart"
+      End Actor
+      Begin Actor Class=/Script/Engine.WorldPartitionMiniMap Name=WorldPartitionMiniMap_0 Archetype="/Script/Engine.WorldPartitionMiniMap'/Script/Engine.Default__WorldPartitionMiniMap'" ActorFolderPath=None ExportPath="/Script/Engine.WorldPartitionMiniMap'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.WorldPartitionMiniMap_0'"
+         ActorLabel="WorldPartitionMiniMap0"
+      End Actor
+      Begin Actor Class=/Script/NavigationSystem.AbstractNavData Name=AbstractNavData-Default Archetype="/Script/NavigationSystem.AbstractNavData'/Script/NavigationSystem.Default__AbstractNavData'" ActorFolderPath=None ExportPath="/Script/NavigationSystem.AbstractNavData'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.AbstractNavData-Default'"
+         Begin Object Class=/Script/Engine.SceneComponent Name="SceneComp" Archetype="/Script/Engine.SceneComponent'/Script/NavigationSystem.Default__AbstractNavData:SceneComp'" ExportPath="/Script/Engine.SceneComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.AbstractNavData-Default.SceneComp'"
+         End Object
+         Begin Object Name="SceneComp" ExportPath="/Script/Engine.SceneComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.AbstractNavData-Default.SceneComp'"
+         End Object
+         NavDataConfig=(NavDataClass="/Script/NavigationSystem.AbstractNavData")
+         ActorLabel="AbstractNavData-Default"
+      End Actor
+      Begin Actor Class=/Game/_Main/Blueprints/BP_ItemBook.BP_ItemBook_C Name=BP_ItemBook_C_UAID_B06EBFC454FBA9DD01_1248623280 Archetype="/Game/_Main/Blueprints/BP_ItemBook.BP_ItemBook_C'/Game/_Main/Blueprints/BP_ItemBook.Default__BP_ItemBook_C'" ActorFolderPath=None ExportPath="/Game/_Main/Blueprints/BP_ItemBook.BP_ItemBook_C'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_ItemBook_C_UAID_B06EBFC454FBA9DD01_1248623280'"
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMesh" Archetype="/Script/Engine.StaticMeshComponent'/Game/_Main/Blueprints/BP_ItemBook.BP_ItemBook_C:StaticMesh_GEN_VARIABLE'" ExportPath="/Script/Engine.StaticMeshComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_ItemBook_C_UAID_B06EBFC454FBA9DD01_1248623280.StaticMesh'"
+         End Object
+         Begin Object Class=/Script/Engine.SphereComponent Name="Sphere" Archetype="/Script/Engine.SphereComponent'/Game/_Main/Blueprints/BP_ItemBook.BP_ItemBook_C:Sphere_GEN_VARIABLE'" ExportPath="/Script/Engine.SphereComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_ItemBook_C_UAID_B06EBFC454FBA9DD01_1248623280.Sphere'"
+         End Object
+         Begin Object Class=/Script/Engine.SceneComponent Name="DefaultSceneRoot" Archetype="/Script/Engine.SceneComponent'/Game/_Main/Blueprints/BP_ItemBook.BP_ItemBook_C:ICH-DefaultSceneRoot_GEN_VARIABLE'" ExportPath="/Script/Engine.SceneComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_ItemBook_C_UAID_B06EBFC454FBA9DD01_1248623280.DefaultSceneRoot'"
+         End Object
+         Begin Object Name="StaticMesh" ExportPath="/Script/Engine.StaticMeshComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_ItemBook_C_UAID_B06EBFC454FBA9DD01_1248623280.StaticMesh'"
+            StaticMeshImportVersion=1
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            AttachParent="DefaultSceneRoot"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="Sphere" ExportPath="/Script/Engine.SphereComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_ItemBook_C_UAID_B06EBFC454FBA9DD01_1248623280.Sphere'"
+            AttachParent="DefaultSceneRoot"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="DefaultSceneRoot" ExportPath="/Script/Engine.SceneComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_ItemBook_C_UAID_B06EBFC454FBA9DD01_1248623280.DefaultSceneRoot'"
+            RelativeLocation=(X=1649.426617,Y=986.848459,Z=130.276701)
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         StaticMesh="StaticMesh"
+         Sphere="Sphere"
+         DefaultSceneRoot="DefaultSceneRoot"
+         RootComponent="DefaultSceneRoot"
+         BlueprintCreatedComponents(0)="DefaultSceneRoot"
+         BlueprintCreatedComponents(1)="Sphere"
+         BlueprintCreatedComponents(2)="StaticMesh"
+      End Actor
+      Begin Actor Class=/Game/_Main/Blueprints/BP_ItemBook.BP_ItemBook_C Name=BP_ItemBook_C_UAID_B06EBFC454FBE4DD01_1920814663 Archetype="/Game/_Main/Blueprints/BP_ItemBook.BP_ItemBook_C'/Game/_Main/Blueprints/BP_ItemBook.Default__BP_ItemBook_C'" ActorFolderPath=None ExportPath="/Game/_Main/Blueprints/BP_ItemBook.BP_ItemBook_C'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_ItemBook_C_UAID_B06EBFC454FBE4DD01_1920814663'"
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMesh" Archetype="/Script/Engine.StaticMeshComponent'/Game/_Main/Blueprints/BP_ItemBook.BP_ItemBook_C:StaticMesh_GEN_VARIABLE'" ExportPath="/Script/Engine.StaticMeshComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_ItemBook_C_UAID_B06EBFC454FBE4DD01_1920814663.StaticMesh'"
+         End Object
+         Begin Object Class=/Script/Engine.SphereComponent Name="Sphere" Archetype="/Script/Engine.SphereComponent'/Game/_Main/Blueprints/BP_ItemBook.BP_ItemBook_C:Sphere_GEN_VARIABLE'" ExportPath="/Script/Engine.SphereComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_ItemBook_C_UAID_B06EBFC454FBE4DD01_1920814663.Sphere'"
+         End Object
+         Begin Object Class=/Script/Engine.SceneComponent Name="DefaultSceneRoot" Archetype="/Script/Engine.SceneComponent'/Game/_Main/Blueprints/BP_ItemBook.BP_ItemBook_C:ICH-DefaultSceneRoot_GEN_VARIABLE'" ExportPath="/Script/Engine.SceneComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_ItemBook_C_UAID_B06EBFC454FBE4DD01_1920814663.DefaultSceneRoot'"
+         End Object
+         Begin Object Name="StaticMesh" ExportPath="/Script/Engine.StaticMeshComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_ItemBook_C_UAID_B06EBFC454FBE4DD01_1920814663.StaticMesh'"
+            StaticMeshImportVersion=1
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            AttachParent="DefaultSceneRoot"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="Sphere" ExportPath="/Script/Engine.SphereComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_ItemBook_C_UAID_B06EBFC454FBE4DD01_1920814663.Sphere'"
+            AttachParent="DefaultSceneRoot"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="DefaultSceneRoot" ExportPath="/Script/Engine.SceneComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_ItemBook_C_UAID_B06EBFC454FBE4DD01_1920814663.DefaultSceneRoot'"
+            RelativeLocation=(X=2166.352178,Y=1936.792246,Z=215.724735)
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         StaticMesh="StaticMesh"
+         Sphere="Sphere"
+         DefaultSceneRoot="DefaultSceneRoot"
+         RootComponent="DefaultSceneRoot"
+         ActorLabel="BP_ItemBook2"
+         BlueprintCreatedComponents(0)="DefaultSceneRoot"
+         BlueprintCreatedComponents(1)="Sphere"
+         BlueprintCreatedComponents(2)="StaticMesh"
+      End Actor
+      Begin Actor Class=/Game/_Main/Blueprints/BP_ItemBook.BP_ItemBook_C Name=BP_ItemBook_C_UAID_B06EBFC454FBE7DD01_1978720195 Archetype="/Game/_Main/Blueprints/BP_ItemBook.BP_ItemBook_C'/Game/_Main/Blueprints/BP_ItemBook.Default__BP_ItemBook_C'" ActorFolderPath=None ExportPath="/Game/_Main/Blueprints/BP_ItemBook.BP_ItemBook_C'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_ItemBook_C_UAID_B06EBFC454FBE7DD01_1978720195'"
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMesh" Archetype="/Script/Engine.StaticMeshComponent'/Game/_Main/Blueprints/BP_ItemBook.BP_ItemBook_C:StaticMesh_GEN_VARIABLE'" ExportPath="/Script/Engine.StaticMeshComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_ItemBook_C_UAID_B06EBFC454FBE7DD01_1978720195.StaticMesh'"
+         End Object
+         Begin Object Class=/Script/Engine.SphereComponent Name="Sphere" Archetype="/Script/Engine.SphereComponent'/Game/_Main/Blueprints/BP_ItemBook.BP_ItemBook_C:Sphere_GEN_VARIABLE'" ExportPath="/Script/Engine.SphereComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_ItemBook_C_UAID_B06EBFC454FBE7DD01_1978720195.Sphere'"
+         End Object
+         Begin Object Class=/Script/Engine.SceneComponent Name="DefaultSceneRoot" Archetype="/Script/Engine.SceneComponent'/Game/_Main/Blueprints/BP_ItemBook.BP_ItemBook_C:ICH-DefaultSceneRoot_GEN_VARIABLE'" ExportPath="/Script/Engine.SceneComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_ItemBook_C_UAID_B06EBFC454FBE7DD01_1978720195.DefaultSceneRoot'"
+         End Object
+         Begin Object Name="StaticMesh" ExportPath="/Script/Engine.StaticMeshComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_ItemBook_C_UAID_B06EBFC454FBE7DD01_1978720195.StaticMesh'"
+            StaticMeshImportVersion=1
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            AttachParent="DefaultSceneRoot"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="Sphere" ExportPath="/Script/Engine.SphereComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_ItemBook_C_UAID_B06EBFC454FBE7DD01_1978720195.Sphere'"
+            AttachParent="DefaultSceneRoot"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="DefaultSceneRoot" ExportPath="/Script/Engine.SceneComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_ItemBook_C_UAID_B06EBFC454FBE7DD01_1978720195.DefaultSceneRoot'"
+            RelativeLocation=(X=497.614358,Y=1436.123140,Z=94.263673)
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         StaticMesh="StaticMesh"
+         Sphere="Sphere"
+         DefaultSceneRoot="DefaultSceneRoot"
+         RootComponent="DefaultSceneRoot"
+         ActorLabel="BP_ItemBook3"
+         BlueprintCreatedComponents(0)="DefaultSceneRoot"
+         BlueprintCreatedComponents(1)="Sphere"
+         BlueprintCreatedComponents(2)="StaticMesh"
+      End Actor
+      Begin Actor Class=/Game/_Main/Blueprints/BP_ItemHatchet.BP_ItemHatchet_C Name=BP_ItemHatchet_C_UAID_B06EBFC454FBE5DD01_1631725840 Archetype="/Game/_Main/Blueprints/BP_ItemHatchet.BP_ItemHatchet_C'/Game/_Main/Blueprints/BP_ItemHatchet.Default__BP_ItemHatchet_C'" ActorFolderPath=None ExportPath="/Game/_Main/Blueprints/BP_ItemHatchet.BP_ItemHatchet_C'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_ItemHatchet_C_UAID_B06EBFC454FBE5DD01_1631725840'"
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMesh" Archetype="/Script/Engine.StaticMeshComponent'/Game/_Main/Blueprints/BP_ItemHatchet.BP_ItemHatchet_C:StaticMesh_GEN_VARIABLE'" ExportPath="/Script/Engine.StaticMeshComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_ItemHatchet_C_UAID_B06EBFC454FBE5DD01_1631725840.StaticMesh'"
+         End Object
+         Begin Object Class=/Script/Engine.SphereComponent Name="Sphere" Archetype="/Script/Engine.SphereComponent'/Game/_Main/Blueprints/BP_ItemHatchet.BP_ItemHatchet_C:Sphere_GEN_VARIABLE'" ExportPath="/Script/Engine.SphereComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_ItemHatchet_C_UAID_B06EBFC454FBE5DD01_1631725840.Sphere'"
+         End Object
+         Begin Object Class=/Script/Engine.SceneComponent Name="DefaultSceneRoot" Archetype="/Script/Engine.SceneComponent'/Game/_Main/Blueprints/BP_ItemHatchet.BP_ItemHatchet_C:ICH-DefaultSceneRoot_GEN_VARIABLE'" ExportPath="/Script/Engine.SceneComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_ItemHatchet_C_UAID_B06EBFC454FBE5DD01_1631725840.DefaultSceneRoot'"
+         End Object
+         Begin Object Name="StaticMesh" ExportPath="/Script/Engine.StaticMeshComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_ItemHatchet_C_UAID_B06EBFC454FBE5DD01_1631725840.StaticMesh'"
+            StaticMeshImportVersion=1
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            AttachParent="DefaultSceneRoot"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="Sphere" ExportPath="/Script/Engine.SphereComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_ItemHatchet_C_UAID_B06EBFC454FBE5DD01_1631725840.Sphere'"
+            AttachParent="DefaultSceneRoot"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="DefaultSceneRoot" ExportPath="/Script/Engine.SceneComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_ItemHatchet_C_UAID_B06EBFC454FBE5DD01_1631725840.DefaultSceneRoot'"
+            RelativeLocation=(X=946.133666,Y=834.190952,Z=29.956726)
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         StaticMesh="StaticMesh"
+         Sphere="Sphere"
+         DefaultSceneRoot="DefaultSceneRoot"
+         RootComponent="DefaultSceneRoot"
+         BlueprintCreatedComponents(0)="DefaultSceneRoot"
+         BlueprintCreatedComponents(1)="Sphere"
+         BlueprintCreatedComponents(2)="StaticMesh"
+      End Actor
+      Begin Actor Class=/Game/_Main/Blueprints/BP_ItemHatchet.BP_ItemHatchet_C Name=BP_ItemHatchet_C_UAID_B06EBFC454FBEADD01_1973491724 Archetype="/Game/_Main/Blueprints/BP_ItemHatchet.BP_ItemHatchet_C'/Game/_Main/Blueprints/BP_ItemHatchet.Default__BP_ItemHatchet_C'" ActorFolderPath=None ExportPath="/Game/_Main/Blueprints/BP_ItemHatchet.BP_ItemHatchet_C'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_ItemHatchet_C_UAID_B06EBFC454FBEADD01_1973491724'"
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMesh" Archetype="/Script/Engine.StaticMeshComponent'/Game/_Main/Blueprints/BP_ItemHatchet.BP_ItemHatchet_C:StaticMesh_GEN_VARIABLE'" ExportPath="/Script/Engine.StaticMeshComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_ItemHatchet_C_UAID_B06EBFC454FBEADD01_1973491724.StaticMesh'"
+         End Object
+         Begin Object Class=/Script/Engine.SphereComponent Name="Sphere" Archetype="/Script/Engine.SphereComponent'/Game/_Main/Blueprints/BP_ItemHatchet.BP_ItemHatchet_C:Sphere_GEN_VARIABLE'" ExportPath="/Script/Engine.SphereComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_ItemHatchet_C_UAID_B06EBFC454FBEADD01_1973491724.Sphere'"
+         End Object
+         Begin Object Class=/Script/Engine.SceneComponent Name="DefaultSceneRoot" Archetype="/Script/Engine.SceneComponent'/Game/_Main/Blueprints/BP_ItemHatchet.BP_ItemHatchet_C:ICH-DefaultSceneRoot_GEN_VARIABLE'" ExportPath="/Script/Engine.SceneComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_ItemHatchet_C_UAID_B06EBFC454FBEADD01_1973491724.DefaultSceneRoot'"
+         End Object
+         Begin Object Name="StaticMesh" ExportPath="/Script/Engine.StaticMeshComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_ItemHatchet_C_UAID_B06EBFC454FBEADD01_1973491724.StaticMesh'"
+            StaticMeshImportVersion=1
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            AttachParent="DefaultSceneRoot"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="Sphere" ExportPath="/Script/Engine.SphereComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_ItemHatchet_C_UAID_B06EBFC454FBEADD01_1973491724.Sphere'"
+            AttachParent="DefaultSceneRoot"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="DefaultSceneRoot" ExportPath="/Script/Engine.SceneComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_ItemHatchet_C_UAID_B06EBFC454FBEADD01_1973491724.DefaultSceneRoot'"
+            RelativeLocation=(X=1130.000000,Y=1480.000000,Z=120.000000)
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         StaticMesh="StaticMesh"
+         Sphere="Sphere"
+         DefaultSceneRoot="DefaultSceneRoot"
+         RootComponent="DefaultSceneRoot"
+         ActorLabel="BP_ItemHatchet2"
+         BlueprintCreatedComponents(0)="DefaultSceneRoot"
+         BlueprintCreatedComponents(1)="Sphere"
+         BlueprintCreatedComponents(2)="StaticMesh"
+      End Actor
+      Begin Actor Class=/Game/_Main/Blueprints/BP_ItemHatchet.BP_ItemHatchet_C Name=BP_ItemHatchet_C_UAID_B06EBFC454FBEEDD01_1288994429 Archetype="/Game/_Main/Blueprints/BP_ItemHatchet.BP_ItemHatchet_C'/Game/_Main/Blueprints/BP_ItemHatchet.Default__BP_ItemHatchet_C'" ActorFolderPath=None ExportPath="/Game/_Main/Blueprints/BP_ItemHatchet.BP_ItemHatchet_C'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_ItemHatchet_C_UAID_B06EBFC454FBEEDD01_1288994429'"
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMesh" Archetype="/Script/Engine.StaticMeshComponent'/Game/_Main/Blueprints/BP_ItemHatchet.BP_ItemHatchet_C:StaticMesh_GEN_VARIABLE'" ExportPath="/Script/Engine.StaticMeshComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_ItemHatchet_C_UAID_B06EBFC454FBEEDD01_1288994429.StaticMesh'"
+         End Object
+         Begin Object Class=/Script/Engine.SphereComponent Name="Sphere" Archetype="/Script/Engine.SphereComponent'/Game/_Main/Blueprints/BP_ItemHatchet.BP_ItemHatchet_C:Sphere_GEN_VARIABLE'" ExportPath="/Script/Engine.SphereComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_ItemHatchet_C_UAID_B06EBFC454FBEEDD01_1288994429.Sphere'"
+         End Object
+         Begin Object Class=/Script/Engine.SceneComponent Name="DefaultSceneRoot" Archetype="/Script/Engine.SceneComponent'/Game/_Main/Blueprints/BP_ItemHatchet.BP_ItemHatchet_C:ICH-DefaultSceneRoot_GEN_VARIABLE'" ExportPath="/Script/Engine.SceneComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_ItemHatchet_C_UAID_B06EBFC454FBEEDD01_1288994429.DefaultSceneRoot'"
+         End Object
+         Begin Object Name="StaticMesh" ExportPath="/Script/Engine.StaticMeshComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_ItemHatchet_C_UAID_B06EBFC454FBEEDD01_1288994429.StaticMesh'"
+            StaticMeshImportVersion=1
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            AttachParent="DefaultSceneRoot"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="Sphere" ExportPath="/Script/Engine.SphereComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_ItemHatchet_C_UAID_B06EBFC454FBEEDD01_1288994429.Sphere'"
+            AttachParent="DefaultSceneRoot"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="DefaultSceneRoot" ExportPath="/Script/Engine.SceneComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_ItemHatchet_C_UAID_B06EBFC454FBEEDD01_1288994429.DefaultSceneRoot'"
+            RelativeLocation=(X=1968.647668,Y=2811.195626,Z=86.361560)
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         StaticMesh="StaticMesh"
+         Sphere="Sphere"
+         DefaultSceneRoot="DefaultSceneRoot"
+         RootComponent="DefaultSceneRoot"
+         ActorLabel="BP_ItemHatchet3"
+         BlueprintCreatedComponents(0)="DefaultSceneRoot"
+         BlueprintCreatedComponents(1)="Sphere"
+         BlueprintCreatedComponents(2)="StaticMesh"
+      End Actor
+      Begin Actor Class=/Game/_Main/Blueprints/BP_Sword.BP_Sword_C Name=BP_Sword_C_UAID_B06EBFC454FBE7DD01_1083734194 Archetype="/Game/_Main/Blueprints/BP_Sword.BP_Sword_C'/Game/_Main/Blueprints/BP_Sword.Default__BP_Sword_C'" ActorFolderPath=None ExportPath="/Game/_Main/Blueprints/BP_Sword.BP_Sword_C'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_Sword_C_UAID_B06EBFC454FBE7DD01_1083734194'"
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMesh" Archetype="/Script/Engine.StaticMeshComponent'/Game/_Main/Blueprints/BP_Sword.BP_Sword_C:StaticMesh_GEN_VARIABLE'" ExportPath="/Script/Engine.StaticMeshComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_Sword_C_UAID_B06EBFC454FBE7DD01_1083734194.StaticMesh'"
+         End Object
+         Begin Object Class=/Script/Engine.SphereComponent Name="Sphere" Archetype="/Script/Engine.SphereComponent'/Game/_Main/Blueprints/BP_Sword.BP_Sword_C:Sphere_GEN_VARIABLE'" ExportPath="/Script/Engine.SphereComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_Sword_C_UAID_B06EBFC454FBE7DD01_1083734194.Sphere'"
+         End Object
+         Begin Object Class=/Script/Engine.SceneComponent Name="DefaultSceneRoot" Archetype="/Script/Engine.SceneComponent'/Game/_Main/Blueprints/BP_Sword.BP_Sword_C:ICH-DefaultSceneRoot_GEN_VARIABLE'" ExportPath="/Script/Engine.SceneComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_Sword_C_UAID_B06EBFC454FBE7DD01_1083734194.DefaultSceneRoot'"
+         End Object
+         Begin Object Name="StaticMesh" ExportPath="/Script/Engine.StaticMeshComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_Sword_C_UAID_B06EBFC454FBE7DD01_1083734194.StaticMesh'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            AttachParent="DefaultSceneRoot"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="Sphere" ExportPath="/Script/Engine.SphereComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_Sword_C_UAID_B06EBFC454FBE7DD01_1083734194.Sphere'"
+            AttachParent="DefaultSceneRoot"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="DefaultSceneRoot" ExportPath="/Script/Engine.SceneComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_Sword_C_UAID_B06EBFC454FBE7DD01_1083734194.DefaultSceneRoot'"
+            RelativeLocation=(X=470.000000,Y=2540.000000,Z=0.000000)
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         StaticMesh="StaticMesh"
+         Sphere="Sphere"
+         DefaultSceneRoot="DefaultSceneRoot"
+         RootComponent="DefaultSceneRoot"
+         BlueprintCreatedComponents(0)="DefaultSceneRoot"
+         BlueprintCreatedComponents(1)="Sphere"
+         BlueprintCreatedComponents(2)="StaticMesh"
+      End Actor
+      Begin Actor Class=/Game/_Main/Blueprints/ItemHealthPotion.ItemHealthPotion_C Name=ItemHealthPotion_C_UAID_B06EBFC454FBE5DD01_1968852841 Archetype="/Game/_Main/Blueprints/ItemHealthPotion.ItemHealthPotion_C'/Game/_Main/Blueprints/ItemHealthPotion.Default__ItemHealthPotion_C'" ActorFolderPath=None ExportPath="/Game/_Main/Blueprints/ItemHealthPotion.ItemHealthPotion_C'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.ItemHealthPotion_C_UAID_B06EBFC454FBE5DD01_1968852841'"
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMesh" Archetype="/Script/Engine.StaticMeshComponent'/Game/_Main/Blueprints/ItemHealthPotion.ItemHealthPotion_C:StaticMesh_GEN_VARIABLE'" ExportPath="/Script/Engine.StaticMeshComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.ItemHealthPotion_C_UAID_B06EBFC454FBE5DD01_1968852841.StaticMesh'"
+         End Object
+         Begin Object Class=/Script/Engine.SphereComponent Name="Sphere" Archetype="/Script/Engine.SphereComponent'/Game/_Main/Blueprints/ItemHealthPotion.ItemHealthPotion_C:Sphere_GEN_VARIABLE'" ExportPath="/Script/Engine.SphereComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.ItemHealthPotion_C_UAID_B06EBFC454FBE5DD01_1968852841.Sphere'"
+         End Object
+         Begin Object Class=/Script/Engine.SceneComponent Name="DefaultSceneRoot" Archetype="/Script/Engine.SceneComponent'/Game/_Main/Blueprints/ItemHealthPotion.ItemHealthPotion_C:ICH-DefaultSceneRoot_GEN_VARIABLE'" ExportPath="/Script/Engine.SceneComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.ItemHealthPotion_C_UAID_B06EBFC454FBE5DD01_1968852841.DefaultSceneRoot'"
+         End Object
+         Begin Object Name="StaticMesh" ExportPath="/Script/Engine.StaticMeshComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.ItemHealthPotion_C_UAID_B06EBFC454FBE5DD01_1968852841.StaticMesh'"
+            StaticMeshImportVersion=1
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            AttachParent="DefaultSceneRoot"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="Sphere" ExportPath="/Script/Engine.SphereComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.ItemHealthPotion_C_UAID_B06EBFC454FBE5DD01_1968852841.Sphere'"
+            AttachParent="DefaultSceneRoot"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="DefaultSceneRoot" ExportPath="/Script/Engine.SceneComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.ItemHealthPotion_C_UAID_B06EBFC454FBE5DD01_1968852841.DefaultSceneRoot'"
+            RelativeLocation=(X=1007.908717,Y=2363.078311,Z=113.098759)
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         StaticMesh="StaticMesh"
+         Sphere="Sphere"
+         DefaultSceneRoot="DefaultSceneRoot"
+         RootComponent="DefaultSceneRoot"
+         BlueprintCreatedComponents(0)="DefaultSceneRoot"
+         BlueprintCreatedComponents(1)="Sphere"
+         BlueprintCreatedComponents(2)="StaticMesh"
+      End Actor
+      Begin Actor Class=/Game/_Main/Blueprints/ItemHealthPotion.ItemHealthPotion_C Name=ItemHealthPotion_C_UAID_B06EBFC454FBEEDD01_1294471430 Archetype="/Game/_Main/Blueprints/ItemHealthPotion.ItemHealthPotion_C'/Game/_Main/Blueprints/ItemHealthPotion.Default__ItemHealthPotion_C'" ActorFolderPath=None ExportPath="/Game/_Main/Blueprints/ItemHealthPotion.ItemHealthPotion_C'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.ItemHealthPotion_C_UAID_B06EBFC454FBEEDD01_1294471430'"
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMesh" Archetype="/Script/Engine.StaticMeshComponent'/Game/_Main/Blueprints/ItemHealthPotion.ItemHealthPotion_C:StaticMesh_GEN_VARIABLE'" ExportPath="/Script/Engine.StaticMeshComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.ItemHealthPotion_C_UAID_B06EBFC454FBEEDD01_1294471430.StaticMesh'"
+         End Object
+         Begin Object Class=/Script/Engine.SphereComponent Name="Sphere" Archetype="/Script/Engine.SphereComponent'/Game/_Main/Blueprints/ItemHealthPotion.ItemHealthPotion_C:Sphere_GEN_VARIABLE'" ExportPath="/Script/Engine.SphereComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.ItemHealthPotion_C_UAID_B06EBFC454FBEEDD01_1294471430.Sphere'"
+         End Object
+         Begin Object Class=/Script/Engine.SceneComponent Name="DefaultSceneRoot" Archetype="/Script/Engine.SceneComponent'/Game/_Main/Blueprints/ItemHealthPotion.ItemHealthPotion_C:ICH-DefaultSceneRoot_GEN_VARIABLE'" ExportPath="/Script/Engine.SceneComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.ItemHealthPotion_C_UAID_B06EBFC454FBEEDD01_1294471430.DefaultSceneRoot'"
+         End Object
+         Begin Object Name="StaticMesh" ExportPath="/Script/Engine.StaticMeshComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.ItemHealthPotion_C_UAID_B06EBFC454FBEEDD01_1294471430.StaticMesh'"
+            StaticMeshImportVersion=1
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            AttachParent="DefaultSceneRoot"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="Sphere" ExportPath="/Script/Engine.SphereComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.ItemHealthPotion_C_UAID_B06EBFC454FBEEDD01_1294471430.Sphere'"
+            AttachParent="DefaultSceneRoot"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="DefaultSceneRoot" ExportPath="/Script/Engine.SceneComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.ItemHealthPotion_C_UAID_B06EBFC454FBEEDD01_1294471430.DefaultSceneRoot'"
+            RelativeLocation=(X=1979.166641,Y=2352.367393,Z=101.816936)
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         StaticMesh="StaticMesh"
+         Sphere="Sphere"
+         DefaultSceneRoot="DefaultSceneRoot"
+         RootComponent="DefaultSceneRoot"
+         ActorLabel="ItemHealthPotion2"
+         BlueprintCreatedComponents(0)="DefaultSceneRoot"
+         BlueprintCreatedComponents(1)="Sphere"
+         BlueprintCreatedComponents(2)="StaticMesh"
+      End Actor
+      Begin Actor Class=/Game/_Main/Blueprints/ItemHealthPotion.ItemHealthPotion_C Name=ItemHealthPotion_C_UAID_B06EBFC454FBF6DD01_1595633839 Archetype="/Game/_Main/Blueprints/ItemHealthPotion.ItemHealthPotion_C'/Game/_Main/Blueprints/ItemHealthPotion.Default__ItemHealthPotion_C'" ActorFolderPath=None ExportPath="/Game/_Main/Blueprints/ItemHealthPotion.ItemHealthPotion_C'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.ItemHealthPotion_C_UAID_B06EBFC454FBF6DD01_1595633839'"
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMesh" Archetype="/Script/Engine.StaticMeshComponent'/Game/_Main/Blueprints/ItemHealthPotion.ItemHealthPotion_C:StaticMesh_GEN_VARIABLE'" ExportPath="/Script/Engine.StaticMeshComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.ItemHealthPotion_C_UAID_B06EBFC454FBF6DD01_1595633839.StaticMesh'"
+         End Object
+         Begin Object Class=/Script/Engine.SphereComponent Name="Sphere" Archetype="/Script/Engine.SphereComponent'/Game/_Main/Blueprints/ItemHealthPotion.ItemHealthPotion_C:Sphere_GEN_VARIABLE'" ExportPath="/Script/Engine.SphereComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.ItemHealthPotion_C_UAID_B06EBFC454FBF6DD01_1595633839.Sphere'"
+         End Object
+         Begin Object Class=/Script/Engine.SceneComponent Name="DefaultSceneRoot" Archetype="/Script/Engine.SceneComponent'/Game/_Main/Blueprints/ItemHealthPotion.ItemHealthPotion_C:ICH-DefaultSceneRoot_GEN_VARIABLE'" ExportPath="/Script/Engine.SceneComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.ItemHealthPotion_C_UAID_B06EBFC454FBF6DD01_1595633839.DefaultSceneRoot'"
+         End Object
+         Begin Object Name="StaticMesh" ExportPath="/Script/Engine.StaticMeshComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.ItemHealthPotion_C_UAID_B06EBFC454FBF6DD01_1595633839.StaticMesh'"
+            StaticMeshImportVersion=1
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            AttachParent="DefaultSceneRoot"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="Sphere" ExportPath="/Script/Engine.SphereComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.ItemHealthPotion_C_UAID_B06EBFC454FBF6DD01_1595633839.Sphere'"
+            AttachParent="DefaultSceneRoot"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="DefaultSceneRoot" ExportPath="/Script/Engine.SceneComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.ItemHealthPotion_C_UAID_B06EBFC454FBF6DD01_1595633839.DefaultSceneRoot'"
+            RelativeLocation=(X=1514.965932,Y=2112.222209,Z=100.008460)
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         StaticMesh="StaticMesh"
+         Sphere="Sphere"
+         DefaultSceneRoot="DefaultSceneRoot"
+         RootComponent="DefaultSceneRoot"
+         ActorLabel="ItemHealthPotion3"
+         BlueprintCreatedComponents(0)="DefaultSceneRoot"
+         BlueprintCreatedComponents(1)="Sphere"
+         BlueprintCreatedComponents(2)="StaticMesh"
+      End Actor
+      Begin Actor Class=/Game/_Main/Blueprints/ItemHealthPotion.ItemHealthPotion_C Name=ItemHealthPotion_C_UAID_B06EBFC454FBF6DD01_1600761840 Archetype="/Game/_Main/Blueprints/ItemHealthPotion.ItemHealthPotion_C'/Game/_Main/Blueprints/ItemHealthPotion.Default__ItemHealthPotion_C'" ActorFolderPath=None ExportPath="/Game/_Main/Blueprints/ItemHealthPotion.ItemHealthPotion_C'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.ItemHealthPotion_C_UAID_B06EBFC454FBF6DD01_1600761840'"
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMesh" Archetype="/Script/Engine.StaticMeshComponent'/Game/_Main/Blueprints/ItemHealthPotion.ItemHealthPotion_C:StaticMesh_GEN_VARIABLE'" ExportPath="/Script/Engine.StaticMeshComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.ItemHealthPotion_C_UAID_B06EBFC454FBF6DD01_1600761840.StaticMesh'"
+         End Object
+         Begin Object Class=/Script/Engine.SphereComponent Name="Sphere" Archetype="/Script/Engine.SphereComponent'/Game/_Main/Blueprints/ItemHealthPotion.ItemHealthPotion_C:Sphere_GEN_VARIABLE'" ExportPath="/Script/Engine.SphereComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.ItemHealthPotion_C_UAID_B06EBFC454FBF6DD01_1600761840.Sphere'"
+         End Object
+         Begin Object Class=/Script/Engine.SceneComponent Name="DefaultSceneRoot" Archetype="/Script/Engine.SceneComponent'/Game/_Main/Blueprints/ItemHealthPotion.ItemHealthPotion_C:ICH-DefaultSceneRoot_GEN_VARIABLE'" ExportPath="/Script/Engine.SceneComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.ItemHealthPotion_C_UAID_B06EBFC454FBF6DD01_1600761840.DefaultSceneRoot'"
+         End Object
+         Begin Object Name="StaticMesh" ExportPath="/Script/Engine.StaticMeshComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.ItemHealthPotion_C_UAID_B06EBFC454FBF6DD01_1600761840.StaticMesh'"
+            StaticMeshImportVersion=1
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            AttachParent="DefaultSceneRoot"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="Sphere" ExportPath="/Script/Engine.SphereComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.ItemHealthPotion_C_UAID_B06EBFC454FBF6DD01_1600761840.Sphere'"
+            AttachParent="DefaultSceneRoot"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="DefaultSceneRoot" ExportPath="/Script/Engine.SceneComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.ItemHealthPotion_C_UAID_B06EBFC454FBF6DD01_1600761840.DefaultSceneRoot'"
+            RelativeLocation=(X=1397.320836,Y=1867.614313,Z=91.674422)
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         StaticMesh="StaticMesh"
+         Sphere="Sphere"
+         DefaultSceneRoot="DefaultSceneRoot"
+         RootComponent="DefaultSceneRoot"
+         ActorLabel="ItemHealthPotion4"
+         BlueprintCreatedComponents(0)="DefaultSceneRoot"
+         BlueprintCreatedComponents(1)="Sphere"
+         BlueprintCreatedComponents(2)="StaticMesh"
+      End Actor
+      Begin Actor Class=/Game/_Main/Blueprints/ItemHealthPotion.ItemHealthPotion_C Name=ItemHealthPotion_C_UAID_B06EBFC454FBF6DD01_1606465841 Archetype="/Game/_Main/Blueprints/ItemHealthPotion.ItemHealthPotion_C'/Game/_Main/Blueprints/ItemHealthPotion.Default__ItemHealthPotion_C'" ActorFolderPath=None ExportPath="/Game/_Main/Blueprints/ItemHealthPotion.ItemHealthPotion_C'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.ItemHealthPotion_C_UAID_B06EBFC454FBF6DD01_1606465841'"
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMesh" Archetype="/Script/Engine.StaticMeshComponent'/Game/_Main/Blueprints/ItemHealthPotion.ItemHealthPotion_C:StaticMesh_GEN_VARIABLE'" ExportPath="/Script/Engine.StaticMeshComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.ItemHealthPotion_C_UAID_B06EBFC454FBF6DD01_1606465841.StaticMesh'"
+         End Object
+         Begin Object Class=/Script/Engine.SphereComponent Name="Sphere" Archetype="/Script/Engine.SphereComponent'/Game/_Main/Blueprints/ItemHealthPotion.ItemHealthPotion_C:Sphere_GEN_VARIABLE'" ExportPath="/Script/Engine.SphereComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.ItemHealthPotion_C_UAID_B06EBFC454FBF6DD01_1606465841.Sphere'"
+         End Object
+         Begin Object Class=/Script/Engine.SceneComponent Name="DefaultSceneRoot" Archetype="/Script/Engine.SceneComponent'/Game/_Main/Blueprints/ItemHealthPotion.ItemHealthPotion_C:ICH-DefaultSceneRoot_GEN_VARIABLE'" ExportPath="/Script/Engine.SceneComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.ItemHealthPotion_C_UAID_B06EBFC454FBF6DD01_1606465841.DefaultSceneRoot'"
+         End Object
+         Begin Object Name="StaticMesh" ExportPath="/Script/Engine.StaticMeshComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.ItemHealthPotion_C_UAID_B06EBFC454FBF6DD01_1606465841.StaticMesh'"
+            StaticMeshImportVersion=1
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            AttachParent="DefaultSceneRoot"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="Sphere" ExportPath="/Script/Engine.SphereComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.ItemHealthPotion_C_UAID_B06EBFC454FBF6DD01_1606465841.Sphere'"
+            AttachParent="DefaultSceneRoot"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="DefaultSceneRoot" ExportPath="/Script/Engine.SceneComponent'/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.ItemHealthPotion_C_UAID_B06EBFC454FBF6DD01_1606465841.DefaultSceneRoot'"
+            RelativeLocation=(X=1734.696038,Y=2004.529812,Z=100.008460)
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         StaticMesh="StaticMesh"
+         Sphere="Sphere"
+         DefaultSceneRoot="DefaultSceneRoot"
+         RootComponent="DefaultSceneRoot"
+         ActorLabel="ItemHealthPotion5"
+         BlueprintCreatedComponents(0)="DefaultSceneRoot"
+         BlueprintCreatedComponents(1)="Sphere"
+         BlueprintCreatedComponents(2)="StaticMesh"
+      End Actor
+   End Level
+Begin Surface
+End Surface
+End Map
